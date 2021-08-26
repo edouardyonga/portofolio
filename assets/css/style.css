@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600&display=swap');
+
+/* @font-face {
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+    src: url('~assets/fonts/Barlow_Semi_Condensed/BarlowSemiCondensed-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Rajdhani';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('~assets/fonts/Rajdhani/Rajdhani-Regular.ttf') format('truetype');
+} */
+
+h1 {
+    font-family: "Space Grotesk", sans-serif !important;
+    font-weight: 800;
+}
+
+h2 {
+    font-family: "Space Grotesk", sans-serif !important;
+    font-weight: 600;
+}
+
+#app {
+    font-family: "Space Grotesk", sans-serif !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.nuxt-link {
+    text-decoration: none !important;
+}
