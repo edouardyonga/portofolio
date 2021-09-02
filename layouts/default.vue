@@ -37,7 +37,7 @@
         :resize="true"
         color="#fff"
       />
-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
+
       <v-container>
         <Nuxt />
       </v-container>
