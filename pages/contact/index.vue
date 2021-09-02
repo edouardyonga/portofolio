@@ -1,7 +1,7 @@
 <template>
   <div>
     <client-only placeholder="Loading...">
-      <!-- <Snowf
+ <!-- <Snowf
         :amount="30"
         :size="3"
         :speed="3"
@@ -37,18 +37,24 @@
           </p>
           <div class="text-center">
             <a href="https://www.linkedin.com/in/edouardyonga/" target="_blank">
-              <v-icon color="primary">mdi-linkedin</v-icon> linkedin
+             <v-btn text class="text-capitalize">
+                <v-icon color="primary">mdi-linkedin</v-icon> linkedin
+             </v-btn>
             </a>
 
 
             <a class=" mx-4 animate__animated animate__bounce" href="mailto:ededwardyonga@gmail.com" target='_blank'>
-              <v-icon color='primary' class="mr-1">mdi-email</v-icon
+              <v-btn text class="text-capitalize">
+                <v-icon color='primary' class="mr-1">mdi-email</v-icon
               >Email
+              </v-btn>
             </a>
 
             <a class="mr-2" href="//api.whatsapp.com/send?phone=237654309211&text=Mr Edouard Yonga , Am interested in your services" target="_blank">
-              <v-icon color='primary' class="mr-1">mdi-whatsapp</v-icon
+             <v-btn text>
+                <v-icon color='primary' class="mr-1">mdi-whatsapp</v-icon
               >+237 654309211
+             </v-btn>
             </a>
           </div>
 
@@ -61,11 +67,12 @@
 
 <script>
 // import Snowf from "vue-snowf";
-import "animate.css"
+
 export default {
   // components: {
   //   Snowf,
   // },
+
 };
 </script>
 

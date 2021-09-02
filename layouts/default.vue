@@ -1,6 +1,8 @@
 <template>
   <v-app dark>
+
     <v-main>
+
       <v-app-bar fixed class="nav" dense dark>
         <v-btn to='/'  v-if="$route.path !='/'">
           <v-icon>mdi-arrow-left</v-icon>
@@ -11,7 +13,31 @@
           <v-toolbar-subtitle>Contact me</v-toolbar-subtitle>
         </nuxt-link>
       </v-app-bar>
-
+       <Snowf
+        :amount="30"
+        :size="3"
+        :speed="3"
+        :wind="0"
+        :opacity="0.6"
+        :swing="1"
+        :image="null"
+        :zIndex="null"
+        :resize="true"
+        color="#7b46ec"
+      />
+      <Snowf
+        :amount="50"
+        :size="5"
+        :speed="1.5"
+        :wind="0"
+        :opacity="0.8"
+        :swing="1"
+        :image="null"
+        :zIndex="null"
+        :resize="true"
+        color="#fff"
+      />
+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
       <v-container>
         <Nuxt />
       </v-container>
@@ -21,7 +47,12 @@
 </template>
 
 <script>
+import Snowf from "vue-snowf";
+
 export default {
+  components: {
+    Snowf,
+  },
   data() {
     return {
       clipped: false,
