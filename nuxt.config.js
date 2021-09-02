@@ -1,9 +1,14 @@
 import colors from 'vuetify/es5/util/colors'
 
 export default {
+  mode:'universal',
   target: 'static',
   srr:false,
   generate: {
+    routes:[
+      '/',
+      '/contact'
+    ],
     fallback: true
   },
     // Global page headers: https://go.nuxtjs.dev/config-head
