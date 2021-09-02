@@ -25,9 +25,16 @@ export default {
     css: [
         '~/assets/css/style.css'
     ],
+    // progress-bar
+    loading: {
+        color: '#7b46ec',
+        height: '5px'
+    },
 
     // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-    plugins: [],
+    plugins: [
+        { src: "@/plugins/typeWriter", mode: "client" }
+    ],
 
     // Auto import components: https://go.nuxtjs.dev/config-components
     components: true,
