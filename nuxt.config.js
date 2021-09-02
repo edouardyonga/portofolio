@@ -1,7 +1,6 @@
 import colors from 'vuetify/es5/util/colors'
 
 export default {
-  mode:'universal',
   target: 'static',
   srr:false,
   generate: {
